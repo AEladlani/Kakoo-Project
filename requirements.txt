@@ -1,0 +1,8 @@
+streamlit==1.50.0
+deepmultilingualpunctuation==1.2.0
+tqdm==4.67.1
+colorama==0.4.6
+transformers==4.57.6
+matplotlib==3.9.4
+mediapipe==0.10.21
+torch==2.8.0+cu128
