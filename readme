@@ -1,10 +1,8 @@
-# Kakoo HR Interview Sentiment Analyzer
-
-![Kakoo Logo](kakoo.png)
+# Kakoo Sentiment Analyzer
 
 ## Overview
 
-This project is a **Streamlit web application** designed to analyze HR interview responses.  
+This project is a **Streamlit web application** designed to analyze sentiment of responses. 
 It performs the following tasks:
 
 1. **Language Detection** – Automatically detects whether the input text is English, French, or another language using Mediapipe.  
@@ -26,5 +24,4 @@ To ensure smooth deployment on **Streamlit Cloud** (2.7 GB limit), this project 
 ```python
 sentiment_model = pipeline(
     "sentiment-analysis", 
-    model="cardiffnlp/twitter-xlm-roberta-base-sentiment"
-)
+    model="cardiffnlp/twitter-xlm-roberta-base-sentiment")```
