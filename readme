@@ -19,6 +19,8 @@ The app can handle text input **either typed directly** or **uploaded as a file*
 
 To ensure smooth deployment on **Streamlit Cloud** (2.7 GB limit), this project uses a **lightweight multilingual sentiment model** instead of the large 2.1 GB model:
 
+Demo App can be visited here : https://sent-kakoo.streamlit.app
+
 - Original large model (not used here):  
 
 ```python
